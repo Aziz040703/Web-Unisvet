@@ -45,27 +45,29 @@ document.addEventListener('DOMContentLoaded', function() {
                     url: "https://lmsspada.kemdiktisaintek.go.id/mod/book/tool/print/index.php?id=113974"
             }]
         },
-        "2210511005": {
-            password: "20041120",
-            name: "Citra Lestari",
+        "3322110015": {
+            password: "161002",
+            name: "Heri Mulyono",
             courses: [{
-                code: "PBI102",
-                name: "Structure II",
+                code: "PBI112",
+                name: "Pengolahan Data Terdistribusi",
                 time: "08:00 - 09:40",
-                lecturer: "Prof. Dr. Johnson, M.A.",
+                lecturer: "Afis Pratama,S.T.,M.pd",
                 materials: [{
-                    title: "Chapter 1: Tenses Review",
-                    url: "#"
+                    title: "Chapter 1:  jenis-jenis sistem terdistribusi",
+                    url: "https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture"
                 }, {
-                    title: "Worksheet: Irregular Verbs",
-                    url: "#"
+                    title: "Pengenalan Sistem Terdistribusi",
+                    url: "https://www.atlassian.com/microservices/microservices-architecture/distributed-architecture"
                 }]
             }, {
                 code: "PBI105",
-                name: "Speaking for Academic Purposes",
+                name: "E-commerce dan fintech",
                 time: "10:00 - 11:40",
-                lecturer: "Dr. Maria, S.S., M.Pd",
-                materials: []
+                lecturer: "Didin H.,S.Kom.,M.Kom",
+                materials: [{
+                    title: "Pengertian, Jenis dan Manfaat E-commerce"
+                    url: "https://developers.bri.co.id/id/news/ketahui-perkembangan-e-commerce-di-indonesia-pengertian-jenis-dan-manfaatnya"
             }]
         }
     };
