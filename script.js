@@ -38,9 +38,11 @@ document.addEventListener('DOMContentLoaded', function() {
                 time: "13:00 - 14:40",
                 lecturer: "R.Irlanto Sudomo, M.Pd",
                 materials: [{
-                    title: "Slide 01 - Macam-Macam Media Pembelajaran dan jeni jenis nya ",
+                    title: "Slide 01 - Macam-Macam Media Pembelajaran dan jenis jenis nya ",
                     url: "https://fkip.umsu.ac.id/media-pembelajaran-dan-jenis-jenisnya/"
-                }]
+                }, {
+                     title: "cara mengembangkan dan memanfaatkan media dalam pembelajaran",
+                    url: "https://lmsspada.kemdiktisaintek.go.id/mod/book/tool/print/index.php?id=113974"
             }]
         },
         "2210511005": {
