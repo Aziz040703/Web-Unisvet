@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universitas IVET Semarang - Absensi & Materi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logounisvet.png" alt="Logo Universitas IVET">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#prodi">Program Studi</a></li>
+                    <li><a href="#materi-kuliah">Materi Kuliah</a></li>
+                    <li><a href="#absensi">Absensi Mahasiswa</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="beranda" class="hero">
+            <div class="hero-text">
+                <h1>Selamat Datang di Universitas IVET</h1>
+                <p>Kampus Cerdas, Kreatif, dan Berkarakter</p>
+                <a href="#prodi" class="btn">Lihat Program Studi</a>
+            </div>
+        </section>
+
+        <section id="tentang" class="container content-section">
+            <h2>Tentang Universitas IVET</h2>
+            <p>Universitas Ivet (dulu IKIP Veteran Jawa Tengah) adalah sebuah perguruan tinggi swasta yang berlokasi di Semarang, Jawa Tengah. Universitas ini berfokus pada pengembangan sumber daya manusia yang unggul, profesional, dan berkarakter melalui pendidikan dan pengajaran yang berkualitas.</p>
+        </section>
+
+        <section id="prodi" class="container content-section">
+            <h2>Program Studi Unggulan</h2>
+            <div class="prodi-grid">
+                <div class="prodi-card">
+                    <h3>Fakultas Keguruan dan Ilmu Pendidikan</h3>
+                    <p>Pendidikan Informatika, Pendidikan Bahasa Inggris, PGSD, dan lainnya.</p>
+                </div>
+                <div class="prodi-card">
+                    <h3>Fakultas Sains dan Teknologi</h3>
+                    <p>Sistem Informasi, Teknik Mesin, Teknik Informatika.</p>
+                </div>
+                <div class="prodi-card">
+                    <h3>Fakultas Vokasi</h3>
+                    <p>Manajemen Informatika, Teknik Otomotif, dan program D3 lainnya.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="materi-kuliah" class="container content-section">
+            <h2>Materi Perkuliahan</h2>
+            <p class="section-subtitle">Beberapa materi pilihan yang bisa diakses secara umum oleh mahasiswa.</p>
+            <div id="materi-grid" class="materi-grid">
+                </div>
+        </section>
+
+        <section id="absensi" class="container content-section">
+            <h2>Absensi & Materi Personal</h2>
+            <div id="login-section">
+                <p>Silakan masuk untuk melakukan absensi perkuliahan hari ini.</p>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="nim">NIM (Nomor Induk Mahasiswa)</label>
+                        <input type="text" id="nim" name="nim" placeholder="Contoh: 2110512001" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Gunakan tanggal lahir (YYYYMMDD)" required>
+                    </div>
+                    <button type="submit" class="btn">Login</button>
+                    <p id="login-error" class="error-message"></p>
+                </form>
+            </div>
+
+            <div id="absensi-section" class="hidden">
+                <div class="user-info">
+                    <h3>Selamat Datang, <span id="student-name"></span>!</h3>
+                    <p>NIM: <span id="student-nim"></span></p>
+                    <button id="logout-btn" class="btn btn-secondary">Logout</button>
+                </div>
+                <h4>Jadwal Kuliah Hari Ini: Selasa, 1 Juli 2025</h4>
+                <div id="course-list">
+                    </div>
+                <div class="personal-materi-container">
+                    <h4>Materi untuk Mata Kuliah Anda</h4>
+                    <div id="personal-materi-list" class="materi-grid">
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Universitas IVET Semarang. Dibuat sebagai contoh.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
