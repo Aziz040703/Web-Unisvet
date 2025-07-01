@@ -43,7 +43,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 }, {
                      title: "cara mengembangkan dan memanfaatkan media dalam pembelajaran",
                     url: "https://lmsspada.kemdiktisaintek.go.id/mod/book/tool/print/index.php?id=113974"
+                }]
             }]
+                
         },
         "3322110015": {
             password: "161002",
