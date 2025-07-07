@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Universitas IVET Semarang - Absensi & Materi</title>
+    <title>Universitas IVET Semarang - Absensi Mahasiswa</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
 </head>
 <body>
 
@@ -15,12 +16,12 @@
         <div class="container">
             <div class="logo">
                 <img src="logounisvet.png" alt="Logo Universitas IVET">
-            </div>
+                </div>
             <nav>
                 <ul>
                     <li><a href="#beranda">Beranda</a></li>
+                    <li><a href="#tentang">Tentang</a></li>
                     <li><a href="#prodi">Program Studi</a></li>
-                    <li><a href="#materi-kuliah">Materi Kuliah</a></li>
                     <li><a href="#absensi">Absensi Mahasiswa</a></li>
                 </ul>
             </nav>
@@ -59,21 +60,15 @@
             </div>
         </section>
 
-        <section id="materi-kuliah" class="container content-section">
-            <h2>Materi Perkuliahan</h2>
-            <p class="section-subtitle">Beberapa materi pilihan yang bisa diakses secara umum oleh mahasiswa.</p>
-            <div id="materi-grid" class="materi-grid">
-                </div>
-        </section>
-
         <section id="absensi" class="container content-section">
-            <h2>Absensi & Materi Personal</h2>
+            <h2>Absensi Mahasiswa</h2>
+            
             <div id="login-section">
                 <p>Silakan masuk untuk melakukan absensi perkuliahan hari ini.</p>
                 <form id="login-form">
                     <div class="form-group">
                         <label for="nim">NIM (Nomor Induk Mahasiswa)</label>
-                        <input type="text" id="nim" name="nim" placeholder="Contoh: 2110512001" required>
+                        <input type="text" id="nim" name="nim" placeholder="Contoh: 3322110016" required>
                     </div>
                     <div class="form-group">
                         <label for="password">Password</label>
@@ -90,14 +85,9 @@
                     <p>NIM: <span id="student-nim"></span></p>
                     <button id="logout-btn" class="btn btn-secondary">Logout</button>
                 </div>
-                <h4>Jadwal Kuliah Hari Ini: Selasa, 1 Juli 2025</h4>
+                <h4>Jadwal Kuliah Hari Ini: Selasa, 8 Juli 2025</h4>
                 <div id="course-list">
                     </div>
-                <div class="personal-materi-container">
-                    <h4>Materi untuk Mata Kuliah Anda</h4>
-                    <div id="personal-materi-list" class="materi-grid">
-                        </div>
-                </div>
             </div>
         </section>
     </main>
